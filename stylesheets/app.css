@@ -9041,7 +9041,7 @@ nav ul.title-area li.name h1 a {
 /* line 35, ../scss/_custom.scss */
 #portfolio h2 {
   color: #FFFFFF;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 /* line 39, ../scss/_custom.scss */
 #portfolio .portfolio-items {
@@ -9052,4 +9052,85 @@ nav ul.title-area li.name h1 a {
 #contact {
   background: #d7d7d7;
   padding: 3em 0;
+  text-align: center;
+}
+/* line 47, ../scss/_custom.scss */
+#contact h3 {
+  color: #348093;
+  font-family: "Montserrat Alternates", "Lato", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+/* line 53, ../scss/_custom.scss */
+#contact p {
+  color: #348093;
+  font-family: "Montserrat Alternates", "Lato", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1em;
+}
+
+/* line 62, ../scss/_custom.scss */
+.portfolio-summary h1 {
+  color: #348093;
+  font-size: 3.3em;
+}
+/* line 66, ../scss/_custom.scss */
+.portfolio-summary h2 {
+  color: #348093;
+  font-size: 2.3em;
+}
+/* line 70, ../scss/_custom.scss */
+.portfolio-summary p {
+  color: #348093;
+}
+
+/* line 74, ../scss/_custom.scss */
+.portfolio-info {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  margin: 2em 0;
+}
+/* line 80, ../scss/_custom.scss */
+.portfolio-info h5 {
+  color: #348093;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1em;
+}
+/* line 84, ../scss/_custom.scss */
+.portfolio-info h5 span {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+/* line 90, ../scss/_custom.scss */
+.portfolio-image {
+  margin: 2em auto;
+}
+
+/* line 94, ../scss/_custom.scss */
+.final-design {
+  background: #d7d7d7;
+  padding: 3em 0;
+  text-align: center;
+}
+/* line 98, ../scss/_custom.scss */
+.final-design h6 {
+  color: #348093;
+}
+/* line 101, ../scss/_custom.scss */
+.final-design img {
+  padding-top: 1.5em;
+  padding-bottom: 2.5em;
+}
+
+/* line 106, ../scss/_custom.scss */
+.links {
+  text-align: left;
+}
+
+/* line 109, ../scss/_custom.scss */
+.right {
+  float: right;
+  text-align: right;
 }
