@@ -9072,65 +9072,85 @@ nav ul.title-area li.name h1 a {
 .portfolio-summary h1 {
   color: #348093;
   font-size: 3.3em;
+  line-height: 1;
+  margin: 0.5em 0 0.15em;
 }
-/* line 66, ../scss/_custom.scss */
+/* line 68, ../scss/_custom.scss */
 .portfolio-summary h2 {
-  color: #348093;
+  color: #999;
   font-size: 2.3em;
+  line-height: 1;
 }
-/* line 70, ../scss/_custom.scss */
+/* line 73, ../scss/_custom.scss */
 .portfolio-summary p {
   color: #348093;
 }
 
-/* line 74, ../scss/_custom.scss */
+/* line 77, ../scss/_custom.scss */
 .portfolio-info {
   padding-top: 1em;
   padding-bottom: 1em;
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-top: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
   margin: 2em 0;
 }
-/* line 80, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 .portfolio-info h5 {
   color: #348093;
   font-family: "Lato", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
 }
-/* line 84, ../scss/_custom.scss */
+/* line 87, ../scss/_custom.scss */
 .portfolio-info h5 span {
   font-weight: bold;
   font-size: 1em;
 }
 
-/* line 90, ../scss/_custom.scss */
+/* line 93, ../scss/_custom.scss */
 .portfolio-image {
   margin: 2em auto;
 }
 
-/* line 94, ../scss/_custom.scss */
+/* line 97, ../scss/_custom.scss */
 .final-design {
   background: #d7d7d7;
   padding: 3em 0;
   text-align: center;
 }
-/* line 98, ../scss/_custom.scss */
+/* line 101, ../scss/_custom.scss */
 .final-design h6 {
   color: #348093;
 }
-/* line 101, ../scss/_custom.scss */
+/* line 104, ../scss/_custom.scss */
 .final-design img {
   padding-top: 1.5em;
   padding-bottom: 2.5em;
 }
 
-/* line 106, ../scss/_custom.scss */
+/* line 109, ../scss/_custom.scss */
 .links {
   text-align: left;
 }
 
-/* line 109, ../scss/_custom.scss */
+/* line 112, ../scss/_custom.scss */
 .right {
   float: right;
   text-align: right;
+}
+
+/* line 116, ../scss/_custom.scss */
+.pagination {
+  margin: 1em auto;
+}
+
+/* line 119, ../scss/_custom.scss */
+.social {
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 122, ../scss/_custom.scss */
+.social li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
 }
